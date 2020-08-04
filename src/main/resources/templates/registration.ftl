@@ -3,7 +3,7 @@
 <@c.page>
 
 <h3><i>Добавление нового пользователя</i></h3>
-${message}
+${message?if_exists}
    <@l.maclogin "/registration" />
 
 </@c.page>
